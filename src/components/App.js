@@ -13,7 +13,7 @@ function App() {
     <div style={{ padding: "2rem", textAlign: "center", fontFamily: "Arial" }}>
       <h1>Parent Component</h1>
       {isLoggedIn ? (
-        <h2>You are logged in !</h2>
+        <p>You are logged in!</p>
       ) : (
         <LoginForm isLoggedIn={isLoggedIn} onLogin={handleLogin} />
       )}
